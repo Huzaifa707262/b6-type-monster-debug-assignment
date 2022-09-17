@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        .blog {
+            text-align: center;
+        }
+
+        .ans {
+            color: blue;
+        }
+
+        .question {
+            color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="blog">My Blog</h1>
+    <section>
+        <!-- question-1-start ---------- -->
+        <h3 class="question">1. what is the difference between local storage and session storage?</h3>
+        Ans:
+        <p class="ans">Session storage: <br> Session storage is destroyed once the user closes the browser whereas.</p>
+        <p class="ans">
+            Local storage: <br> Local storage stores data with no
+            expiration date.
+        </p>
+        <!-- question-1-end ---- -->
+
+        <!-- question-2-start ---------------- -->
+        <h3 class="question">2. What is the difference between global scope and block scope? </h3>
+        Ans:
+        <p class="ans">
+            Globsl scope: The variables defined outside of any function or curly brackets are known as global variables
+            and have global scope. Global scope means that the variables can be accessed from any part of that program,
+            any function or conditional state can access that variable.
+
+        </p>
+        <p class="ans">Block scope: Block scope is also a sub-type of local scope. The block scope can be defined as the
+            scope of the
+            variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional
+            statements, or something else. You are only allowed to refer to these variables from within the curly
+            brackets {}.</p>
+        <!-- question-2-end ---------------- -->
+
+        <!-------------- question-3-start ------------------- -->
+        <h3 class="question">3. How does javascript event loop work?</h3>
+        Ans:
+        <p class="ans"> Event loop works by making a request to some internal or external "event provider" (that
+            generally blocks the request until an event has arrived), then calls the relevant event handler.
+        </p>
+        <!-- question-3-end --- -->
+
+        <!---------------- question-4-start -------------- -->
+        <h3 class="question"> 4.How much we can get undefined? </h3>
+        Ans:
+        <p class="ans">
+            8 way to get undefined <br>
+            1.If variable that is not initialized.<br>
+            2.If function with no return. <br>
+            3.If paramiter that is not passed. <br>
+            4.If return has nothing on the right side. <br>
+            5.If property that doesn't exists on an object. <br>
+            6.If accessing array elements outside on the index range. <br>
+            7.Deleting an element inside an array. <br>
+            8.If set a value directly to undefined. <br>
+
+        </p>
+    </section>
+</body>
+
+</html>
